@@ -1,0 +1,39 @@
+.recortado-dos-lados {
+    clip-path: polygon(1em 0%, 100% 0%, calc(100% - 1em) 100%, 0% 100%);
+}
+
+.recortado-un-lado {
+    clip-path: polygon(0 0, 100% 0, calc(100% - 30px) 100%, 0 100%);
+}
+
+.mayuscula {
+    text-transform: uppercase;
+}
+
+.miembro {
+    display: flex;
+}
+
+.card-img{
+    width: 40%;
+}
+
+@media (max-width: 1000px)  {
+    .miembro {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .miembro>img {
+        width: 70%;
+        align-self: center;
+    }
+}
+
+.blancoYnegro {
+    filter: grayscale(1);
+}
+
+.zoom {
+    transform: scale(1.2);
+}

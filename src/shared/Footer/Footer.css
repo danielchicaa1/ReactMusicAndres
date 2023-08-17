@@ -1,0 +1,19 @@
+.fila {
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/proyecto-vite-andres.appspot.com/o/defLeppard%2FProductos%2Fbackground_noise.jpg?alt=media&token=7b6d57e1-db4b-445c-af3f-8069d46db3c4");
+    box-sizing: border-box;
+    display: flex;
+    padding: 20px 20px;
+    text-transform: uppercase;
+    justify-content: space-between;
+}
+
+@media (max-width: 1000px) {
+    .fila {
+        display: block;
+        text-align: center;
+        box-sizing: border-box;
+    }
+}
+
+
+

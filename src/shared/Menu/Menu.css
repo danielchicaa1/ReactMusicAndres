@@ -1,0 +1,39 @@
+.logo {
+    width: 200px;
+}
+
+.cinta {
+    height: 40px;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.navbar, .menu {
+    background-color: transparent;
+}
+
+#navbarLeft, #navbarRight {
+   /*background-color: #05030c;*/
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/proyecto-vite-andres.appspot.com/o/defLeppard%2FProductos%2Fbackground_noise.jpg?alt=media&token=7b6d57e1-db4b-445c-af3f-8069d46db3c4");
+}
+
+#navbarLeft {
+    clip-path: polygon(0 0, 100% 0, calc(100% - 50px) 100%, 0% 100%);
+}
+
+#navbarRight {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 50px 100%);
+}
+
+@media (max-width: 1000px) {
+    #link-logo {
+        order: -1;
+    }
+
+    #navbarLeft, #navbarRight {
+        background-image: none;
+        background-color: transparent;
+        color: #0c0304;
+    }
+
+}
+
